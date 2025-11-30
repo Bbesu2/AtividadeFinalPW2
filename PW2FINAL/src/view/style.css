@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background-color: rgb(236, 177, 197);
+    position:fixed;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.formulario{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #10101d;
+    padding: 18px;
+    border-radius: 8px;
+    width: 230px;
+    
+}
+
+.Fundoformulario{
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #f0eee2;
+    padding: 18px;
+    border-radius: 8px;
+    width: 70dvh;
+    height: 70dvh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input, select{
+    align-self: flex-end;
+    right: -10%;
+    top: 10%;
+    width: 30dvh;
+    height: 5dvh;
+}
+.forms_anolanc{
+    align-self: flex-end;
+    padding-right: 20%;
+    right: -10%;
+    top: 10%;
+    width: 20dvh;
+    height: 5dvh;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;   
+}
+
+.botoes {
+    min-width: 120px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.enviar { background-color: rgb(93, 146, 93); }
+.limpar { background-color: rgb(190, 100, 127); }
+
+
+.topo{
+    background-color: cornsilk;
+    display: grid;
+    column-gap: 20px;
+    column-count: 1;
+    width: 10%;
+    height: 100%;
+}
