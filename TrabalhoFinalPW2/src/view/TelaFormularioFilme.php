@@ -67,8 +67,6 @@ if (isset($_GET['codigo']) && $_GET['codigo'] !== '') {
 
     <div class="mb-3">
         <label>Gênero</label>
-          <div class="mb-3">
-        <label>Gênero</label>
         <select class="form-select" name="genero" required>
             <option value="Acao">Ação</option>
             <option value="Aventura">Aventura</option>
