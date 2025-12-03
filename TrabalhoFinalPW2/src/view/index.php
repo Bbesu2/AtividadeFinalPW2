@@ -59,6 +59,12 @@ require_once __DIR__ . '/../controller/midia-update.php';
     <div class="carousel-item">
       <img src="imagens/chiriro.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="https://cxisto.wordpress.com/wp-content/uploads/2024/01/image-1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/S/pv-target-images/d3861afe6e755561c2dee625151e4c5e0b059f8554575f87f9b561b32a4cf900.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
   <button class="carousel-control-prev" type="button"  data-bs-target="#carouselExampleFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
